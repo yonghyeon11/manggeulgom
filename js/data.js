@@ -1,14 +1,14 @@
-/*       'mouse', 0
-         'cow', 1
+/*       'snoop', 0
+         'charisma', 1
          'tiger', 2
          'rabbit', 3
          'dragon', 4
-         'snake', 5
-         'horse', 6
-         'sheep', 7
-         'monkey', 8
-         'chick', 9
-         'dog', 10
+         'ludolpeu', 5
+         'baer', 6
+         'panda', 7
+         'hip', 8
+         'cat', 9
+         'heart', 10
          'pig', 11
 */
 
