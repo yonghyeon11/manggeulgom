@@ -5,32 +5,6 @@ const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult(){
-    /* var pointArray = [
-        {name : 'mouse', value: 0, key:0},
-        {name : 'cow', value: 0, key:1},
-        {name : 'tiger', value: 0, key:2},
-        {name : 'rabbit', value: 0, key:3},
-        {name : 'dragon', value: 0, key:4},
-        {name : 'snake', value: 0, key:5},
-        {name : 'horse', value: 0, key:6},
-        {name : 'sheep', value: 0, key:7},
-        {name : 'monkey', value: 0, key:8},
-        {name : 'chick', value: 0, key:9},
-        {name : 'dog', value: 0, key:10},
-        {name : 'cow', value: 0, key:11},
-    ]
-
-    for(let i = 0; i < endPoint; i++){
-        var target = qnaList[i].a[select[i]];
-        for(let j = 0; j < target.type.length; j++){
-            for(let k = 0; k < pointArray.length; k++){
-                if(target.type[j] === pointArray[k].name){
-                    pointArray[k].value += 1;
-                }
-            }
-        }
-    } */
-
     var result = select.indexOf(Math.max(...select));
     return result;
 }
